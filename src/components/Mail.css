@@ -1,0 +1,19 @@
+.mail {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.mail__tools {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.mail__toolsLeft {
+    display: flex;
+}
+
+
+
