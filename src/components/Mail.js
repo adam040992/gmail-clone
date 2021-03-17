@@ -84,7 +84,7 @@ function Mail() {
                 </div>
 
                 <div className="mail__message">
-
+                    This is a message
                 </div>
             </div>
         </div>
