@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Mail from './components/Mail';
 import EmailList from './components/EmailList';
+import SendMail from './components/SendMail';
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,6 +30,8 @@ function App() {
             </Route>
           </Switch>
         </div>
+
+        <SendMail />
       </div>
     </Router> 
   );
