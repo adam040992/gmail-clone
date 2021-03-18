@@ -15,7 +15,6 @@ import LocalOfferIcon from '@material-ui/icons/LocalOffer'
 import EmailRow from './EmailRow';
 import { db } from '../firebase';
 
-
 function EmailList() {
     const [emails, setEmails] = useState([]);
 
@@ -67,6 +66,16 @@ function EmailList() {
                 <Section Icon={LocalOfferIcon} title='Promotions' color='green' />
             </div>
             <div className="emailList__list">
+                {emails.map(({id, data: { to, subject, message, timestamp }}) => (
+                    <EmailRow
+                        id={id}
+                        key={id}
+                        title={to}
+                        subject={subject}
+                        description={message}
+                        time={new Date(timestamp?.seconds * 1000).toUTCString()}
+                    />
+                ))}
                 <EmailRow 
                     title='Twitch'
                     subject='Hej follow streamer!!!'

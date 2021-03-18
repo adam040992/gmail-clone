@@ -15,7 +15,7 @@ import UnfoldMoreIcon from '@material-ui/icons/UnfoldMore';
 import PrintIcon from '@material-ui/icons/Print';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
-function Mail() {
+function Mail({ key, title, subject, description }) {
     const history = useHistory();
     
     return (
@@ -79,7 +79,7 @@ function Mail() {
                 <div className="mail__bodyHeader">
                     <h2>Subject</h2>
                     <LabelImportantIcon className="mail__important"/>
-                    <p>Title</p>
+                    <p>title</p>
                     <p className="mail__time">10pm</p> 
                 </div>
 
