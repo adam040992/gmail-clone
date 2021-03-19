@@ -76,6 +76,78 @@ function EmailList() {
                         time={new Date(timestamp?.seconds * 1000).toUTCString()}
                     />
                 ))}
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
+                <EmailRow 
+                    title='hola'
+                    subject='hello'
+                    description='hola amigo'
+                    time='10pm'
+                />
             </div>
         </div>
     )
