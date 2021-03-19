@@ -76,18 +76,6 @@ function EmailList() {
                         time={new Date(timestamp?.seconds * 1000).toUTCString()}
                     />
                 ))}
-                <EmailRow 
-                    title='Twitch'
-                    subject='Hej follow streamer!!!'
-                    description='This is test'
-                    time='10pm'
-                />
-                <EmailRow 
-                    title='Twitch'
-                    subject='Hej follow streamer!!!'
-                    description='This is test'
-                    time='10pm'
-                />
             </div>
         </div>
     )
